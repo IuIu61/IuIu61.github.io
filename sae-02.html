@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SAÉ 1.02 — Portfolio R&T</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">← RT Portfolio</a>
+    <ul class="nav-links">
+      <li><a href="index.html#accueil">Accueil</a></li>
+      <li><a href="index.html#projets">SAÉ</a></li>
+      <li><a href="index.html#competences">Compétences</a></li>
+      <li><a href="index.html#bilans">Bilans</a></li>
+      <li><a href="index.html#presentation">Profil</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <section class="sae-page-hero">
+    <div class="container">
+      <div class="sae-page-eyebrow">
+        <span class="sae-page-num">SAÉ 1.02</span>
+        <span class="sae-page-badge">Compétence RT1 · Coeff. 31</span>
+      </div>
+      <h1 class="sae-page-title">S'initier aux réseaux informatiques</h1>
+      <p class="sae-page-sub">Concevoir et déployer un réseau informatique complet : interconnexion de commutateurs L2/L3, routeur Lan/Wan, plan d'adressage IPv4, VLANs, et installation d'un serveur Linux multi-services.</p>
+      <div class="sae-page-ac">
+        <span class="ac-tag">Plan IPv4</span>
+        <span class="ac-tag">VLAN</span>
+        <span class="ac-tag">RSTP</span>
+        <span class="ac-tag">Agrégation de liens</span>
+        <span class="ac-tag">Routage statique</span>
+        <span class="ac-tag">SSH</span>
+        <span class="ac-tag">Debian</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="sae-page-main">
+    <div class="container">
+      <div class="sae-page-grid">
+
+        <section class="sae-section reveal">
+          <div class="sae-section-label">01</div>
+          <div class="sae-section-content">
+            <h2>Contexte & Objectifs</h2>
+            <p><strong>Problématique professionnelle :</strong> L'étudiant est confronté à la découverte et la mise en œuvre d'un premier réseau informatique. Il doit appréhender la diversité des constituants réseau et comprendre leurs interactions — indispensable avant toute intervention sur une infrastructure d'entreprise.</p>
+            <p><strong>Mission confiée :</strong> Concevoir et déployer un réseau d'entreprise complet incluant l'adressage, la segmentation par VLANs, la sécurité des commutateurs (anti-broadcast storm, protection CAM, port-security), et l'installation d'un serveur Debian proposant des services web, FTP, DNS, TFTP et SSH.</p>
+            <p><strong>Équipements utilisés :</strong> Commutateurs Cisco Catalyst 2960 (L2), 3560 (L2/L3), routeur Cisco 2911, machines virtuelles sur Proxmox.</p>
+          </div>
+        </section>
+
+        <section class="sae-section reveal">
+          <div class="sae-section-label">02</div>
+          <div class="sae-section-content">
+            <h2>Technologies et compétences ciblées</h2>
+            <ul class="sae-ac-list">
+              <li><strong>Plan d'adressage IPv4 :</strong> Conception du schéma d'adressage, attribution des sous-réseaux et configuration des interfaces.</li>
+              <li><strong>Commutateurs L2 / L2-L3 :</strong> Configuration RSTP (Spanning Tree), agrégation de liens (EtherChannel), routage inter-VLAN sur le 3560, sécurité des ports (port-security, BPDU Guard).</li>
+              <li><strong>Routeur Cisco 2911 :</strong> Routage statique, configuration des interfaces Lan/Wan.</li>
+              <li><strong>Serveur Debian :</strong> Installation multi-disques, 2 cartes réseau, services web, FTP, DNS cache, TFTP.</li>
+              <li><strong>Accès SSH sécurisé :</strong> Vers les équipements réseau (login/password) et vers le serveur (clés publique/privée).</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="sae-section reveal">
+          <div class="sae-section-label">03</div>
+          <div class="sae-section-content">
+            <h2>Ma contribution & tâches réalisées</h2>
+            <p>À compléter : décrivez les étapes du projet sur lesquelles vous avez travaillé (câblage, configuration des switches, routeur, installation Debian, configuration des services…). Précisez votre rôle au sein du groupe et les tâches dont vous étiez personnellement responsable. Mentionnez les outils et commandes Cisco IOS utilisés.</p>
+          </div>
+        </section>
+
+        <section class="sae-section reveal">
+          <div class="sae-section-label">04</div>
+          <div class="sae-section-content">
+            <h2>Traces & livrables</h2>
+            <ul class="sae-traces-list">
+              <li>Schéma d'architecture réseau annoté</li>
+              <li>Fichiers de configuration Cisco (switches 2960, 3560, routeur 2911)</li>
+              <li>VM Debian fonctionnelle avec services actifs (web, FTP, DNS, TFTP)</li>
+              <li>Captures Wireshark ou tcpdump illustrant le trafic inter-VLAN</li>
+              <li>Rapport de projet avec analyse des choix techniques</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="sae-section highlight-section reveal">
+          <div class="sae-section-label">05</div>
+          <div class="sae-section-content">
+            <h2>Analyse réflexive</h2>
+            <p><strong>Difficultés rencontrées :</strong> À compléter — par exemple : configuration du routage inter-VLAN sur le 3560, compréhension du RSTP et prévention des boucles, mise en place de la politique de mots de passe sur les équipements.</p>
+            <p><strong>Solutions apportées :</strong> À compléter — documentation Cisco consultée, tests méthodiques sur l'environnement de virtualisation Proxmox, débogage par les commandes show.</p>
+            <p><strong>Ce que j'ai appris :</strong> À compléter — vision d'ensemble d'une infrastructure réseau d'entreprise, raisonnement en couches OSI, démarche de diagnostic et d'administration des équipements actifs.</p>
+            <p><strong>Positionnement personnel :</strong> À compléter — évaluez votre niveau de maîtrise de la compétence RT1 après cette SAÉ et les axes d'amélioration prioritaires.</p>
+          </div>
+        </section>
+
+      </div>
+
+      <div class="sae-page-nav-btns">
+        <a href="sae-01.html" class="btn-secondary">← SAÉ 1.01</a>
+        <a href="sae-03.html" class="btn-primary">SAÉ 1.03 <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-logo">RT Portfolio</span>
+      <span class="footer-mention">IUT Grand Ouest Normandie · BUT Réseaux & Télécommunications · 2024–2025</span>
+      <span class="footer-copy">Portfolio académique</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SAÉ 1.03 — Portfolio R&T</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">← RT Portfolio</a>
+    <ul class="nav-links">
+      <li><a href="index.html#accueil">Accueil</a></li>
+      <li><a href="index.html#projets">SAÉ</a></li>
+      <li><a href="index.html#competences">Compétences</a></li>
+      <li><a href="index.html#bilans">Bilans</a></li>
+      <li><a href="index.html#presentation">Profil</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <section class="sae-page-hero">
+    <div class="container">
+      <div class="sae-page-eyebrow">
+        <span class="sae-page-num">SAÉ 1.03</span>
+        <span class="sae-page-badge">Compétence RT2 · Coeff. 36</span>
+      </div>
+      <h1 class="sae-page-title">Découvrir un dispositif de transmission</h1>
+      <p class="sae-page-sub">Étude expérimentale des supports physiques de transmission : câbles cuivre (coaxial et Ethernet) et fibre optique. Mesures de longueur, détection de défauts et qualification d'affaiblissement optique.</p>
+      <div class="sae-page-ac">
+        <span class="ac-tag">Fibre optique (FTTH)</span>
+        <span class="ac-tag">Câble coaxial RG58</span>
+        <span class="ac-tag">Câble Ethernet</span>
+        <span class="ac-tag">Analyse DTF</span>
+        <span class="ac-tag">NVP</span>
+        <span class="ac-tag">Photométrie</span>
+        <span class="ac-tag">GBF / Oscilloscope</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="sae-page-main">
+    <div class="container">
+      <div class="sae-page-grid">
+
+        <section class="sae-section reveal">
+          <div class="sae-section-label">01</div>
+          <div class="sae-section-content">
+            <h2>Contexte & Objectifs</h2>
+            <p><strong>Problématique professionnelle :</strong> Le professionnel R&T est régulièrement amené à qualifier des supports de transmission lors d'interventions sur le terrain. Cette SAÉ reproduit partiellement les paramétrages et mesures qu'effectue un certificateur de câbles, permettant de comprendre les fondements techniques de la certification.</p>
+            <p><strong>Supports étudiés :</strong> Câbles cuivre (coaxial type RG58 avec NVP à 66%, câble Ethernet avec câble étalon de 2 m) et liaison fibre optique de type FTTH (Fiber To The Home), représentative des liaisons vendues par les FAI.</p>
+          </div>
+        </section>
+
+        <section class="sae-section reveal">
+          <div class="sae-section-label">02</div>
+          <div class="sae-section-content">
+            <h2>Compétences et manipulations ciblées</h2>
+            <ul class="sae-ac-list">
+              <li><strong>Mesure DTF (Distance to Fault) :</strong> Utilisation d'un analyseur DTF pour déterminer la longueur d'un câble coaxial et localiser d'éventuels défauts.</li>
+              <li><strong>Régime impulsionnel :</strong> Avec un GBF et un oscilloscope, relevé du temps de parcours d'une impulsion pour calculer la longueur du câble (cohérence avec la mesure DTF).</li>
+              <li><strong>Calcul de la NVP :</strong> Détermination de la Nominal Velocity of Propagation d'un câble Ethernet à partir d'un câble étalon de référence, puis application au câble à caractériser.</li>
+              <li><strong>Mesure photométrique (fibre optique) :</strong> Câblage d'une liaison FTTH, mesure de l'atténuation globale par photométrie pour qualifier la liaison.</li>
+              <li><strong>Étude documentaire :</strong> Rédaction d'une fiche de synthèse A3 recto/verso recensant les formules clés et les étapes de certification d'un support de transmission.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="sae-section reveal">
+          <div class="sae-section-label">03</div>
+          <div class="sae-section-content">
+            <h2>Ma contribution & tâches réalisées</h2>
+            <p>À compléter : décrivez les manipulations réalisées en TP et en projet. Précisez quels câbles vous avez caractérisés (coaxial imposé par groupe, liaison fibre allouée), les valeurs mesurées et les calculs effectués. Mentionnez les difficultés instrumentales rencontrées et comment vous les avez surmontées.</p>
+          </div>
+        </section>
+
+        <section class="sae-section reveal">
+          <div class="sae-section-label">04</div>
+          <div class="sae-section-content">
+            <h2>Traces & livrables</h2>
+            <ul class="sae-traces-list">
+              <li>Rapport de mesures cuivre (A4 recto-verso) : longueur câble coaxial + câble Ethernet par DTF et régime impulsionnel</li>
+              <li>Rapport de mesures fibre optique (A4 recto-verso) : atténuation de la liaison FTTH câblée</li>
+              <li>Fiche de synthèse documentaire manuscrite A3 (autorisée au QCM)</li>
+              <li>QCM final sur ecampus</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="sae-section highlight-section reveal">
+          <div class="sae-section-label">05</div>
+          <div class="sae-section-content">
+            <h2>Analyse réflexive</h2>
+            <p><strong>Difficultés rencontrées :</strong> À compléter — par exemple : prise en main de l'analyseur DTF, compréhension du concept de NVP et de son influence sur la mesure, réalisation du câblage fibre et interprétation des valeurs d'atténuation.</p>
+            <p><strong>Solutions apportées :</strong> À compléter — utilisation de la fiche de synthèse, calculs de vérification, comparaison entre mesure DTF et régime impulsionnel pour valider les résultats.</p>
+            <p><strong>Ce que j'ai appris :</strong> À compléter — compréhension des propriétés physiques des supports de transmission, démarche de certification câble en contexte professionnel, maîtrise des appareils de mesure utilisés sur le terrain (analyseur DTF, photomètre).</p>
+            <p><strong>Positionnement personnel :</strong> À compléter — évaluez votre niveau de maîtrise de la compétence RT2 après cette SAÉ.</p>
+          </div>
+        </section>
+
+      </div>
+
+      <div class="sae-page-nav-btns">
+        <a href="sae-02.html" class="btn-secondary">← SAÉ 1.02</a>
+        <a href="sae-04.html" class="btn-primary">SAÉ 1.04 <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-logo">RT Portfolio</span>
+      <span class="footer-mention">IUT Grand Ouest Normandie · BUT Réseaux & Télécommunications · 2024–2025</span>
+      <span class="footer-copy">Portfolio académique</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
